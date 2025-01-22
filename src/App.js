@@ -101,7 +101,7 @@ function App() {
               <div className="d-flex position-relative justify-content-center align-text-top ">
                 <img
                   src={images.bgTextKayu}
-                  className="berkedip text-kayu "
+                  className=" text-kayu "
                   alt="logo"
                 />
                 <div
@@ -116,7 +116,7 @@ function App() {
                       marginLeft: "10px",
                     }}
                   >
-                    I.G.B AHHAMD FIDAL AKBAR
+                    I.G.B AHAMD FIDAL AKBAR
                   </p>
                 </div>
               </div>
@@ -140,7 +140,8 @@ function App() {
                             fontFamily: "Caveat, serif",
                           }}
                         >
-                          hai {names} datang ya, di acara ulang tahunku yang ke
+                          hai {names} datang ya, di acara ulang tahun fidal yang
+                          ke
                           <span className="fw-bold"> - 3</span>
                         </p>
                       </div>
@@ -230,6 +231,16 @@ function App() {
                       </Swiper>
                     </div>
                   </div>
+                  <div className="row pt-4 justify-content-center">
+                    <div className="col-md-9">
+                      <h2 style={{ fontFamily: "Rowdies, serif" }}>
+                        Thank you very much{" "}
+                        <span>
+                          <i className="bi bi-emoji-heart-eyes-fill ms-2"></i>
+                        </span>
+                      </h2>
+                    </div>
+                  </div>
                 </>
               ) : (
                 ""
@@ -258,7 +269,7 @@ const OpenInvitation = ({ setBacksound, backsound, names }) => {
         ></i>
       </button>
       <h5 className="berkedip text-white fw-bold">klick to open me</h5>
-      <div style={{ marginTop: "200px" }}>
+      <div style={{ marginTop: "100px" }}>
         <button
           className="p-5 btn text-white "
           style={{
