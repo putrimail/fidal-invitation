@@ -83,6 +83,7 @@ function App() {
               {seconds} S
             </div>
           </div>
+          <p className="pt-3">Minggu, 26 Januari 2025</p>
         </div>
       );
     }
